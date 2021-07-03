@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "playground"
+name = "flax-template"
 version = "0.1.0"
-description = ""
+description = "A generic template for flax projects"
 authors = ["Matthew LeMay <mplemay@users.noreply.github.com>"]
 license = "MIT"
 
