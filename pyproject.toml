@@ -7,6 +7,12 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+jax = "^0.2.16"
+jaxlib = "^0.1.68"
+flax = "^0.3.4"
+optax = "^0.0.9"
+ml-collections = "^0.1.0"
+absl-py = "^0.13.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
