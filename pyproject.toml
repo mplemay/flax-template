@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "playground"
+version = "0.1.0"
+description = ""
+authors = ["Matthew LeMay <mplemay@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
