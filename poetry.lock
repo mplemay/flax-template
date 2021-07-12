@@ -316,7 +316,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "jax"
-version = "0.2.16"
+version = "0.2.17"
 description = "Differentiate, compile, and transform Numpy code."
 category = "main"
 optional = false
@@ -328,7 +328,7 @@ numpy = ">=1.17"
 opt_einsum = "*"
 
 [package.extras]
-cpu = ["jaxlib (>=0.1.65)"]
+cpu = ["jaxlib (==0.1.68)"]
 cuda101 = ["jaxlib (==0.1.68+cuda101)"]
 cuda102 = ["jaxlib (==0.1.68+cuda102)"]
 cuda110 = ["jaxlib (==0.1.68+cuda110)"]
@@ -338,7 +338,7 @@ tpu = ["jaxlib (==0.1.68)", "libtpu-nightly (==0.1.dev20210615)"]
 
 [[package]]
 name = "jaxlib"
-version = "0.1.68"
+version = "0.1.69"
 description = "XLA library for JAX"
 category = "main"
 optional = false
@@ -1069,17 +1069,17 @@ idna = [
     {file = "idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"},
 ]
 jax = [
-    {file = "jax-0.2.16.tar.gz", hash = "sha256:75ea35f48c989bb0d81570b865e5bb60c4d4eb7f40924edf9d7860bb8a93de81"},
+    {file = "jax-0.2.17.tar.gz", hash = "sha256:bcfabba84ba563ec86d270f74168fa8f8dd20742f7bce960faabfa7a6c6175af"},
 ]
 jaxlib = [
-    {file = "jaxlib-0.1.68-cp36-none-macosx_10_9_x86_64.whl", hash = "sha256:e2495f22d43736f3cc603442d0533bb620904ea24c31242e069705ab885b7db1"},
-    {file = "jaxlib-0.1.68-cp36-none-manylinux2010_x86_64.whl", hash = "sha256:2ab48b59170682c8a11018c8b6690f36e5bc27a02d76a82d8c6ee540b5f0f949"},
-    {file = "jaxlib-0.1.68-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:c37141512bc60fbc876770c2f01ffbce3480e6ba02836eccf7c15889ad37b47b"},
-    {file = "jaxlib-0.1.68-cp37-none-manylinux2010_x86_64.whl", hash = "sha256:3c82523a806c36e22583f1785783a7a3927d8f27d45540af41bd37151c417fda"},
-    {file = "jaxlib-0.1.68-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:2e8c86ea5f8ea38491a69832ef1152f8fdc8136300d321682cb1290ad1a35a70"},
-    {file = "jaxlib-0.1.68-cp38-none-manylinux2010_x86_64.whl", hash = "sha256:dac5f5732343f1609e15bbb7a40462bfe95d238f144046ffab2ca3dbb1a21aec"},
-    {file = "jaxlib-0.1.68-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:7a9631849a777a8a6206151c8ded3adac70d657dfd67115d75664f669fe7b9a1"},
-    {file = "jaxlib-0.1.68-cp39-none-manylinux2010_x86_64.whl", hash = "sha256:286f938cc7803a6942e4bb6b88a3d7c86977a906e517d804df5af8dc1d15026c"},
+    {file = "jaxlib-0.1.69-cp36-none-macosx_10_9_x86_64.whl", hash = "sha256:f40ef7dd6bef4273f68fe5e724f29d0504ccc6b47b31ea19fab305fc4322a272"},
+    {file = "jaxlib-0.1.69-cp36-none-manylinux2010_x86_64.whl", hash = "sha256:e41830b8b02a44da36b73bf8dc268c3acc9d85194bb96cbed07f1ab24ce6be53"},
+    {file = "jaxlib-0.1.69-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:5bb9da8c55afb2ea4bf30fcb1ae4fdc66785201ef7898b31b4e05724277ec382"},
+    {file = "jaxlib-0.1.69-cp37-none-manylinux2010_x86_64.whl", hash = "sha256:99d4fc1ecf940d8d4c28e54e6e1ff99d57978e7e5a73f2db5bfd4b46ffa210f7"},
+    {file = "jaxlib-0.1.69-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:de78cde68962ff18a5c8f051d6d03aa09a7b910216275fc5f9a8890d2f1909de"},
+    {file = "jaxlib-0.1.69-cp38-none-manylinux2010_x86_64.whl", hash = "sha256:05cbafbc5878406f4e79cadf22c3a9db735f4a842d3805fc7d0162cbefa2e166"},
+    {file = "jaxlib-0.1.69-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:4ad5c340b4f1a47011a8d499aa8590796532c2946691ca414c51e116223cf576"},
+    {file = "jaxlib-0.1.69-cp39-none-manylinux2010_x86_64.whl", hash = "sha256:05858e34e542ed9fd54b066efa9a53ac6297eb5d6c1ee83f67808fc4d17a12bc"},
 ]
 keras-nightly = [
     {file = "keras_nightly-2.5.0.dev2021032900-py2.py3-none-any.whl", hash = "sha256:6ba70f738f4008222de7e7fdd5b2b18c48c49b897a9fca54c844854e25964011"},
