@@ -61,3 +61,7 @@ repos:
   rev: v0.910
   hooks:
   - id: mypy
+- repo: https://github.com/guilatrova/tryceratops
+  rev: v0.2.3
+  hooks:
+  - id: tryceratops
