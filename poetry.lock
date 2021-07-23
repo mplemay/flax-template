@@ -316,11 +316,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "jax"
-version = "0.2.17"
+version = "0.2.18"
 description = "Differentiate, compile, and transform Numpy code."
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 absl-py = "*"
@@ -328,13 +328,13 @@ numpy = ">=1.17"
 opt_einsum = "*"
 
 [package.extras]
-cpu = ["jaxlib (==0.1.68)"]
-cuda101 = ["jaxlib (==0.1.68+cuda101)"]
-cuda102 = ["jaxlib (==0.1.68+cuda102)"]
-cuda110 = ["jaxlib (==0.1.68+cuda110)"]
-cuda111 = ["jaxlib (==0.1.68+cuda111)"]
-minimum-jaxlib = ["jaxlib (==0.1.65)"]
-tpu = ["jaxlib (==0.1.68)", "libtpu-nightly (==0.1.dev20210615)"]
+cpu = ["jaxlib (==0.1.69)"]
+cuda101 = ["jaxlib (==0.1.69+cuda101)"]
+cuda102 = ["jaxlib (==0.1.69+cuda102)"]
+cuda110 = ["jaxlib (==0.1.69+cuda110)"]
+cuda111 = ["jaxlib (==0.1.69+cuda111)"]
+minimum-jaxlib = ["jaxlib (==0.1.69)"]
+tpu = ["jaxlib (==0.1.69)", "libtpu-nightly (==0.1.dev20210709)", "requests"]
 
 [[package]]
 name = "jaxlib"
@@ -1069,7 +1069,7 @@ idna = [
     {file = "idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"},
 ]
 jax = [
-    {file = "jax-0.2.17.tar.gz", hash = "sha256:bcfabba84ba563ec86d270f74168fa8f8dd20742f7bce960faabfa7a6c6175af"},
+    {file = "jax-0.2.18.tar.gz", hash = "sha256:b08d5137189a7384429541b39575a022d4bbf777cdb081e8c1bf6bc14eefcd41"},
 ]
 jaxlib = [
     {file = "jaxlib-0.1.69-cp36-none-macosx_10_9_x86_64.whl", hash = "sha256:f40ef7dd6bef4273f68fe5e724f29d0504ccc6b47b31ea19fab305fc4322a272"},
