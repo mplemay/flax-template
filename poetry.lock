@@ -338,16 +338,16 @@ tpu = ["jaxlib (==0.1.69)", "libtpu-nightly (==0.1.dev20210709)", "requests"]
 
 [[package]]
 name = "jaxlib"
-version = "0.1.69"
+version = "0.1.70"
 description = "XLA library for JAX"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 absl-py = "*"
 flatbuffers = ">=1.12,<3.0"
-numpy = ">=1.17"
+numpy = ">=1.18"
 scipy = "*"
 
 [[package]]
@@ -501,7 +501,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "pre-commit"
-version = "2.13.0"
+version = "2.14.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -1072,14 +1072,11 @@ jax = [
     {file = "jax-0.2.18.tar.gz", hash = "sha256:b08d5137189a7384429541b39575a022d4bbf777cdb081e8c1bf6bc14eefcd41"},
 ]
 jaxlib = [
-    {file = "jaxlib-0.1.69-cp36-none-macosx_10_9_x86_64.whl", hash = "sha256:f40ef7dd6bef4273f68fe5e724f29d0504ccc6b47b31ea19fab305fc4322a272"},
-    {file = "jaxlib-0.1.69-cp36-none-manylinux2010_x86_64.whl", hash = "sha256:e41830b8b02a44da36b73bf8dc268c3acc9d85194bb96cbed07f1ab24ce6be53"},
-    {file = "jaxlib-0.1.69-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:5bb9da8c55afb2ea4bf30fcb1ae4fdc66785201ef7898b31b4e05724277ec382"},
-    {file = "jaxlib-0.1.69-cp37-none-manylinux2010_x86_64.whl", hash = "sha256:99d4fc1ecf940d8d4c28e54e6e1ff99d57978e7e5a73f2db5bfd4b46ffa210f7"},
-    {file = "jaxlib-0.1.69-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:de78cde68962ff18a5c8f051d6d03aa09a7b910216275fc5f9a8890d2f1909de"},
-    {file = "jaxlib-0.1.69-cp38-none-manylinux2010_x86_64.whl", hash = "sha256:05cbafbc5878406f4e79cadf22c3a9db735f4a842d3805fc7d0162cbefa2e166"},
-    {file = "jaxlib-0.1.69-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:4ad5c340b4f1a47011a8d499aa8590796532c2946691ca414c51e116223cf576"},
-    {file = "jaxlib-0.1.69-cp39-none-manylinux2010_x86_64.whl", hash = "sha256:05858e34e542ed9fd54b066efa9a53ac6297eb5d6c1ee83f67808fc4d17a12bc"},
+    {file = "jaxlib-0.1.70-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:c2d69253153f2a5afe947cba3d927815290cba7c3b63c096bccbcfdb785251f5"},
+    {file = "jaxlib-0.1.70-cp37-none-manylinux2010_x86_64.whl", hash = "sha256:61a14a13f1279c9febd74aae572feb247ef076656165ba2eb15f4ab204009843"},
+    {file = "jaxlib-0.1.70-cp38-none-manylinux2010_x86_64.whl", hash = "sha256:89570d3215f5e641d975568b99279b1399e638b5287353d35d2f344ac1472708"},
+    {file = "jaxlib-0.1.70-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:a513d782860ed67fee1657c66e452579b6024a3a05bd5ba684d44a80095df250"},
+    {file = "jaxlib-0.1.70-cp39-none-manylinux2010_x86_64.whl", hash = "sha256:9b2b4c4eaa1abe9b916b08f9d8c539fe2163dbb486966f036a8439bddff76ecb"},
 ]
 keras-nightly = [
     {file = "keras_nightly-2.5.0.dev2021032900-py2.py3-none-any.whl", hash = "sha256:6ba70f738f4008222de7e7fdd5b2b18c48c49b897a9fca54c844854e25964011"},
@@ -1270,8 +1267,8 @@ pillow = [
     {file = "Pillow-8.3.0.tar.gz", hash = "sha256:803606e206f3e366eea46b1e7ab4dac74cfac770d04de9c35319814e11e47c46"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.13.0-py2.py3-none-any.whl", hash = "sha256:b679d0fddd5b9d6d98783ae5f10fd0c4c59954f375b70a58cbe1ce9bcf9809a4"},
-    {file = "pre_commit-2.13.0.tar.gz", hash = "sha256:764972c60693dc668ba8e86eb29654ec3144501310f7198742a767bec385a378"},
+    {file = "pre_commit-2.14.0-py2.py3-none-any.whl", hash = "sha256:ec3045ae62e1aa2eecfb8e86fa3025c2e3698f77394ef8d2011ce0aedd85b2d4"},
+    {file = "pre_commit-2.14.0.tar.gz", hash = "sha256:2386eeb4cf6633712c7cc9ede83684d53c8cafca6b59f79c738098b51c6d206c"},
 ]
 promise = [
     {file = "promise-2.3.tar.gz", hash = "sha256:dfd18337c523ba4b6a58801c164c1904a9d4d1b1747c7d5dbf45b693a49d93d0"},
