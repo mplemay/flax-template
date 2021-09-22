@@ -2,23 +2,23 @@
 name = "flax-template"
 version = "0.1.0"
 description = "A generic template for flax projects"
-authors = ["Matthew LeMay <mplemay@users.noreply.github.com>"]
+authors = ["Matt LeMay <mplemay@users.noreply.github.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-jax = "^0.2.16"
-jaxlib = "^0.1.68"
-flax = "^0.3.4"
+jax = "^0.2.20"
+jaxlib = "^0.1.71"
+flax = "^0.3.5"
 optax = "^0.0.9"
 ml-collections = "^0.1.0"
-absl-py = "^0.13.0"
-tensorflow-datasets = "^4.3.0"
-tensorflow = "^2.5.0"
-clu = "^0.0.4"
+absl-py = "^0.14.0"
+tensorflow-datasets = "^4.4.0"
+clu = "^0.0.6"
+tensorflow = "^2.6.0"
 
 [tool.poetry.dev-dependencies]
-pre-commit = "^2.13.0"
+pre-commit = "^2.15.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
